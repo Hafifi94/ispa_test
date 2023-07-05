@@ -105,3 +105,14 @@ sr.reveal(`.home__data, .home__img,
             .footer__content`, {
     interval: 200
 })
+
+
+/*==================== Cookies ====================*/
+// Ocultar el banner de cookies al hacer clic en el botón "Aceptar"
+document.getElementById('cookie-button').addEventListener('click', function() {
+    document.getElementById('cookie-banner').style.display = 'none';
+  });
+  // Ocultar el banner de cookies al hacer clic en el botón "Rechazar"
+document.getElementById('reject-button').addEventListener('click', function() {
+    document.getElementById('cookie-banner').style.display = 'none';
+  });
