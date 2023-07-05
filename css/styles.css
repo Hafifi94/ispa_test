@@ -573,3 +573,49 @@ img {
 .whatsapp-icon {
   margin-top:13px;
 }
+
+/*---------------------Cookie banner------- */
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--container-color);
+  padding: 10px;
+}
+
+#cookie-text {
+  margin: 0;
+  
+}
+
+.cookie-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: var(--container-color);
+  padding: 1rem;
+}
+
+#cookie-button  {
+  background-color: var(--first-color);
+  color: white;
+  border: var(--body-color);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#reject-button {
+  background-color: var(--first-color);
+  color: white;
+  border: var(--body-color);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
